@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "max-len": [
+      "error",
+      80
+    ],
+    "func-names": "off",
+    "consistent-return": "off",
+    "no-throw-literal": "off",
+    "no-prototype-builtins": "off",
+    "radix": "off",
+    "no-continue":"off",
+    "no-param-reassign":"off"
+  },
+  "settings": {
+    "import/resolver": {}
+  }
+}
